@@ -1,0 +1,22 @@
+.rodape {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.rodape h3{
+  font-size: 1.5rem;
+}
+
+.rodape h2{
+  font-size: 2rem;
+}
+
+@media (max-width:800px){
+  .rodape{
+    grid-template-columns: 1fr;
+  }
+}
